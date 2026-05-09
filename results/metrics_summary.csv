@@ -1,8 +1,15 @@
-Model,Accuracy,Precision,Recall,F1-Score,ROC-AUC
-Logistic Regression,0.842,0.831,0.848,0.839,0.921
-Decision Tree,0.903,0.891,0.908,0.899,0.947
-K-Nearest Neighbors,0.916,0.908,0.918,0.913,0.961
-Support Vector Machine,0.929,0.921,0.934,0.927,0.979
-Random Forest,0.938,0.927,0.941,0.934,0.983
-XGBoost,0.944,0.937,0.948,0.942,0.987
-MLP (Deep Learning),0.951,0.945,0.956,0.950,0.991
+Model,Category,Accuracy,Precision,Recall,F1-Score,ROC-AUC
+LSTM,Deep Learning,0.9032,0.8182,0.9000,0.8571,0.9595
+GRU,Deep Learning,0.8710,0.7500,0.9000,0.8182,0.9571
+ANN,Deep Learning,0.8871,0.8095,0.8500,0.8293,0.9488
+SimpleRNN,Deep Learning,0.8226,0.6957,0.8000,0.7442,0.9488
+SVM,Machine Learning,0.8710,0.7308,0.9500,0.8261,0.9488
+Logistic Regression,Machine Learning,0.8548,0.7200,0.9000,0.8000,0.9476
+AdaBoost,Ensemble,0.8226,0.6800,0.8500,0.7556,0.9173
+MLP (sklearn),Machine Learning,0.8226,0.6957,0.8000,0.7442,0.9202
+KNN,Machine Learning,0.8065,0.6429,0.9000,0.7500,0.8952
+Naive Bayes,Machine Learning,0.8065,0.6333,0.9500,0.7600,0.8893
+Gradient Boosting,Ensemble,0.7903,0.6522,0.7500,0.6977,0.9048
+Random Forest,Ensemble,0.7581,0.6000,0.7500,0.6667,0.9036
+XGBoost,Ensemble,0.7581,0.6087,0.7000,0.6512,0.8940
+Decision Tree,Machine Learning,0.7419,0.5769,0.7500,0.6522,0.8036
